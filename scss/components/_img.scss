@@ -1,0 +1,23 @@
+.img-2 {
+    margin-top: $marginTop;
+    width: nth($size, 9);
+    height: $height;
+    
+    @extend %img
+}
+
+.img-1, .img-3 {
+    margin-top: $marginTop;
+    width: nth($size, 8);
+    height: $height;
+    
+    @extend %img
+}
+
+.img-4 {
+    margin-top: $marginTop;
+    
+    height: $height;
+    
+    @extend %img
+}
