@@ -1,0 +1,5 @@
+.coleccion {
+    margin-left: nth($size, 4);
+    margin-right: nth($size, 4);
+    @extend %grid;
+}
