@@ -6,6 +6,10 @@
 .grid-div {
     @extend %grid;
 }
+.grid-div {
+    margin-left: nth($size, 4);
+    margin-right: nth($size, 4);
+}
 .div2 {
     @extend %grid-2;
 }
@@ -35,8 +39,5 @@
     padding: nth($size, 6);
 }
 
-.grid-div {
-    margin-left: nth($size, 4);
-    margin-right: nth($size, 4);
-}
+
 
