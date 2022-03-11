@@ -16,6 +16,30 @@
   padding-bottom: 0;
 }
 
+.line-3, .line-two, .line {
+  border-top: 1px solid #9c9c9c;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.li-oro {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: start;
+  border: 2px solid;
+}
+
+.oro {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+
 .bg-color {
   background: #161414;
 }
@@ -157,14 +181,10 @@ footer {
   margin: 50px 0px;
 }
 
-p {
-  font-size: 15px;
-}
-
 .h2-cont {
   text-align: center;
   margin: 50px auto 25px auto;
-  padding: 0px;
+  padding: 15px;
   font-size: 25px;
 }
 
@@ -174,44 +194,11 @@ p {
 }
 
 .line {
-  border-top: 1px solid #9c9c9c;
-  height: 2px;
   max-width: 400px;
-  padding: 0;
-  margin: 20px auto 0 auto;
 }
 
 .line-two {
-  border-top: 1px solid #9c9c9c;
-  height: 2px;
   max-width: 150px;
-  padding: 0;
-  margin: 20px auto 0 auto;
-}
-
-.contact {
-  position: static;
-  display: grid;
-  height: auto;
-  width: 100%;
-  min-height: auto;
-  grid-template-rows: 1fr;
-  grid-template-columns: 100%;
-}
-
-.contact-1 {
-  height: auto;
-  width: auto;
-}
-
-.contact-2 {
-  position: static;
-  display: grid;
-  height: auto;
-  width: 100%;
-  min-height: auto;
-  grid-template-rows: repeat(4, min-content) 1fr;
-  grid-template-columns: 100%;
 }
 
 .input {
@@ -219,13 +206,8 @@ p {
   justify-content: center;
 }
 
-.li-oro {
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 19px;
-  margin-bottom: 10px;
-  text-align: start;
-  border: 2px solid;
+.contacto-form {
+  margin: 50px 400px 50px 400px;
 }
 
 .h2-oro {
@@ -244,17 +226,6 @@ p {
   padding: 30px;
 }
 
-.oro {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.oro {
-  text-align: center;
-  padding: 5px 0px;
-  margin: 5px 0px;
-}
-
 .img-oro {
   margin-top: 70px;
 }
@@ -268,11 +239,7 @@ p {
 }
 
 .line-3 {
-  border-top: 1px solid #9c9c9c;
-  height: 2px;
   max-width: auto;
-  padding: 0;
-  margin: 20px auto 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
